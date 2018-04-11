@@ -1,0 +1,38 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "mongodb": "*",
+    "mongoose": "*",
+    "express-validator": "*",
+    "dotenv":"*",
+    "cors":"*",
+    "express-session": "*",
+    "express-validator": "*",
+    "multer": "*"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/thoughtful-pear"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
